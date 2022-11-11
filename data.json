@@ -1,0 +1,436 @@
+{
+  "partidas": [
+    {
+      "date": "20/11",
+      "day_week": "domingo",
+      "games": [
+        {
+          "player1": "Catar",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Equador"
+        }
+      ]
+    },
+    {
+      "date": "21/11",
+      "day_week": "segunda",
+      "games": [
+        {
+          "player1": "Inglaterra",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Irã"
+        },
+        {
+          "player1": "Senegal",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Holanda"
+        },
+        {
+          "player1": "Estados Unidos",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Gales"
+        }
+      ]
+    },
+    {
+      "date": "22/11",
+      "day_week": "terça",
+      "games": [
+        {
+          "player1": "Argentina",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Arábia Saudita"
+        },
+        {
+          "player1": "Dinamarca",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Tunísia"
+        },
+        {
+          "player1": "México",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Polônia"
+        },
+        {
+          "player1": "França",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Austrália"
+        }
+      ]
+    },
+    {
+      "date": "23/11",
+      "day_week": "quarta",
+      "games": [
+        {
+          "player1": "Marrocos",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Croácia"
+        },
+        {
+          "player1": "Alemanha",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Japão"
+        },
+        {
+          "player1": "Espanha",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Costa Rica"
+        },
+        {
+          "player1": "Bélgica",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Canadá"
+        }
+      ]
+    },
+    {
+      "date": "24/11",
+      "day_week": "quinta",
+      "games": [
+        {
+          "player1": "Suíça",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Camarões"
+        },
+        {
+          "player1": "Uruguai",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Coreia do Sul"
+        },
+        {
+          "player1": "Portugal",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Gana"
+        },
+        {
+          "player1": "Brasil",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Sérvia"
+        }
+      ]
+    },
+    {
+      "date": "25/11",
+      "day_week": "sexta",
+      "games": [
+        {
+          "player1": "Gales",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Irã"
+        },
+        {
+          "player1": "Catar",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Senegal"
+        },
+        {
+          "player1": "Holanda",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Equador"
+        },
+        {
+          "player1": "Inglaterra",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "date": "26/11",
+      "day_week": "sábado",
+      "games": [
+        {
+          "player1": "Tunísia",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Austrália"
+        },
+        {
+          "player1": "Polônia",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Arábia Saudita"
+        },
+        {
+          "player1": "França",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Dinamarca"
+        },
+        {
+          "player1": "Argentina",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "México"
+        }
+      ]
+    },
+    {
+      "date": "27/11",
+      "day_week": "domingo",
+      "games": [
+        {
+          "player1": "Japão",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Costa Rica"
+        },
+        {
+          "player1": "Bélgica",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Marrocos"
+        },
+        {
+          "player1": "Croácia",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Canadá"
+        },
+        {
+          "player1": "Espanha",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Alemanha"
+        }
+      ]
+    },
+    {
+      "date": "28/11",
+      "day_week": "segunda",
+      "games": [
+        {
+          "player1": "Camarões",
+          "goals_player1": 0,
+          "hour": "07:00",
+          "goals_player2": 0,
+          "player2": "Sérvia"
+        },
+        {
+          "player1": "Coreia do Sul",
+          "goals_player1": 0,
+          "hour": "10:00",
+          "goals_player2": 0,
+          "player2": "Gana"
+        },
+        {
+          "player1": "Brasil",
+          "goals_player1": 0,
+          "hour": "13:00",
+          "goals_player2": 0,
+          "player2": "Suíça"
+        },
+        {
+          "player1": "Portugal",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Uruguai"
+        }
+      ]
+    },
+    {
+      "date": "29/11",
+      "day_week": "terça",
+      "games": [
+        {
+          "player1": "Equador",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Senegal"
+        },
+        {
+          "player1": "Holanda",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Catar"
+        },
+        {
+          "player1": "Irã",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Estados Unidos"
+        },
+        {
+          "player1": "Gales",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Inglaterra"
+        }
+      ]
+    },
+    {
+      "date": "30/11",
+      "day_week": "terça",
+      "games": [
+        {
+          "player1": "Tunísia",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "França"
+        },
+        {
+          "player1": "Austrália",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Dinamarca"
+        },
+        {
+          "player1": "Polônia",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Argentina"
+        },
+        {
+          "player1": "Arábia Saudita",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "México"
+        }
+      ]
+    },
+    {
+      "date": "01/12",
+      "day_week": "terça",
+      "games": [
+        {
+          "player1": "Croácia",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Bélgica"
+        },
+        {
+          "player1": "Canadá",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Marrocos"
+        },
+        {
+          "player1": "Japão",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Espanha"
+        },
+        {
+          "player1": "Costa Rica",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Alemanha"
+        }
+      ]
+    },
+    {
+      "date": "02/12",
+      "day_week": "terça",
+      "games": [
+        {
+          "player1": "Coreia do Sul",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Portugal"
+        },
+        {
+          "player1": "Gana",
+          "goals_player1": 0,
+          "hour": "12:00",
+          "goals_player2": 0,
+          "player2": "Uruguai"
+        },
+        {
+          "player1": "Sérvia",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Suíça"
+        },
+        {
+          "player1": "Camarões",
+          "goals_player1": 0,
+          "hour": "16:00",
+          "goals_player2": 0,
+          "player2": "Brasil"
+        }
+      ]
+    }
+  ],
+  "oitavas": [],
+  "quartas": [],
+  "semifinal": [],
+  "final": [
+    {
+      "date": "20/11",
+      "day_week": "domingo",
+      "games": [
+        {
+          "player1": "brazil",
+          "goals_player1": 0,
+          "player2": "uruguay",
+          "goals_player2": 0,
+          "hour": "13:00"
+        }
+      ]
+    }
+  ]
+}

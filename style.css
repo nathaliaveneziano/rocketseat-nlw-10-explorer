@@ -46,6 +46,7 @@ body * {
   width: fit-content;
   margin: auto;
   padding-top: 52px;
+  width: 90%;
 }
 
 header {
@@ -53,10 +54,26 @@ header {
   text-align: center;
 }
 
-#cards {
+main {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+#cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.cards {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 32px;
+  margin-top: 32px;
+  display: none;
 }
 
 .card {
@@ -91,7 +108,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 270px;
+  width: 320px;
 }
 
 .card ul li {
@@ -109,7 +126,15 @@ header {
   font-weight: 900;
   font-size: 36px;
   line-height: 125%;
+  padding-inline: 16px;
   color: #e1e1e6;
+}
+
+.card ul li span {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 125%;
+  color: var(--card-color-primary);
 }
 
 .card h2:hover,
@@ -129,6 +154,55 @@ header {
   animation: appear 0.2s forwards;
 }
 
+/* TABS */
+#tabs {
+  text-align: center;
+}
+
+#tabs > input[type='radio'] {
+  position: absolute;
+  left: -200vw;
+}
+
+#tabs > label {
+  position: relative;
+  padding: 15px 15px 25px;
+  cursor: pointer;
+  color: #e1e1e6;
+  text-transform: uppercase;
+}
+
+#tabs > label::after {
+  content: '';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  color: #e1e1e6;
+}
+
+#tabs > label:hover,
+#tabs > input:checked + label,
+#tabs > input:focus + label {
+  color: var(--card-color-primary);
+}
+
+#tabs > label:hover::after,
+#tabs > input:focus + label::after,
+#tabs > input:checked + label::after {
+  background: var(--card-color-primary);
+}
+
+main > #tabs input:nth-of-type(1):checked ~ #cards > .cards:nth-of-type(1),
+main > #tabs input:nth-of-type(2):checked ~ #cards > .cards:nth-of-type(2),
+main > #tabs input:nth-of-type(3):checked ~ #cards > .cards:nth-of-type(3),
+main > #tabs input:nth-of-type(4):checked ~ #cards > .cards:nth-of-type(4),
+main > #tabs input:nth-of-type(5):checked ~ #cards > .cards:nth-of-type(5) {
+  display: flex;
+}
+
+/* ANIMATION */
 @keyframes appear {
   0% {
     transform: translateY(-50px);
@@ -139,10 +213,17 @@ header {
   }
 }
 
+/* MEDIA QUERY */
 @media (min-width: 700px) {
-  #cards {
-    max-width: 670px;
+  main > #tabs input:checked ~ #cards > .cards {
     flex-direction: row;
+    align-items: stretch;
+  }
+
+  .cards {
+    max-width: 670px;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: stretch;
   }
 }

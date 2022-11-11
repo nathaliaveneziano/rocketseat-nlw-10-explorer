@@ -11,17 +11,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body class="green">
+  <body class="blue">
     <div id="app">
       <header>
         <img src="./assets/logo.svg" alt="Logo da NLW Copa" />
       </header>
-      <main id="cards"></main>
+      <main>
+        <div id="tabs">
+          <input
+            type="radio"
+            name="tabs"
+            id="tab1"
+            aria-controls="partidas"
+            checked
+          />
+          <label for="tab1">Partidas</label>
+          <input type="radio" name="tabs" id="tab2" aria-controls="oitavas" />
+          <label for="tab2">Oitavas</label>
+          <input type="radio" name="tabs" id="tab3" aria-controls="quartas" />
+          <label for="tab3">Quartas</label>
+          <input
+            type="radio"
+            name="tabs"
+            id="tab4"
+            aria-controls="semifinais"
+          />
+          <label for="tab4">Semifinais</label>
+          <input type="radio" name="tabs" id="tab5" aria-controls="final" />
+          <label for="tab5">Final</label>
+          <div id="cards">
+            <section id="partidas" class="cards"></section>
+            <section id="oitavas" class="cards"></section>
+            <section id="quartas" class="cards"></section>
+            <section id="semifinal" class="cards"></section>
+            <section id="final" class="cards"></section>
+          </div>
+        </div>
+      </main>
     </div>
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
